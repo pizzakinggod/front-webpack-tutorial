@@ -8,7 +8,7 @@
     "webpack-cli": "^3.3.10"
   },
   "scripts": {
-    "build": "webpack --progress"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/jeonghwan-kim/lecture-frontend-dev-env/issues"
   },
-  "homepage": "https://github.com/jeonghwan-kim/lecture-frontend-dev-env#readme"
+  "homepage": "https://github.com/jeonghwan-kim/lecture-frontend-dev-env#readme",
+  "dependencies": {
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0"
+  }
 }
