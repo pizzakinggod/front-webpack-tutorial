@@ -1,6 +1,7 @@
-import MainController from "./controllers/MainController.js";
-import "./main.css";
+import './main.css';
 
-document.addEventListener("DOMContentLoaded", () => {
+import MainController from './controllers/MainController.js';
+
+document.addEventListener('DOMContentLoaded', () => {
   new MainController();
 });
