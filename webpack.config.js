@@ -27,7 +27,8 @@ module.exports = {
           process.env.NODE_ENV === "production"
             ? MiniCssExtractPlugin.loader // 프로덕션 환경
             : "style-loader", // 개발 환경
-          "css-loader"
+          "css-loader",
+          "sass-loader"
         ]
       },
       {
